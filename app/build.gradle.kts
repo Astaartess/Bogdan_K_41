@@ -50,8 +50,12 @@ dependencies {
     implementation("androidx.compose.material3:material3:1.2.0")
     implementation("com.google.android.material:material:1.11.0")
 
+    // Для @Preview
+    implementation("androidx.compose.ui:ui-tooling-preview:1.6.0")
+
+    // JUnit для юніт-тестів
     testImplementation("junit:junit:4.13.2")
 
+    // Ці залишаємо тільки для debug-збірки
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.0")
-    debugImplementation("androidx.compose.ui:ui-tooling-preview:1.6.0")
 }
