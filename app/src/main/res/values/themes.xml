@@ -1,9 +1,10 @@
+<!-- res/values/themes.xml -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Bogdan_K_41" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!-- Базова тема програми -->
+    <style name="Theme.Bogdan_K_41" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Можеш змінити кольори пізніше, якщо потрібно -->
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@android:color/holo_orange_light</item>
     </style>
-
-    <style name="Theme.Bogdan_K_41" parent="Base.Theme.Bogdan_K_41" />
 </resources>
