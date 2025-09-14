@@ -6,6 +6,11 @@
 
 ---
 
+## Скриншот застосунку
+![Hello Compose Screenshot](docs/screenshot.png)
+
+---
+
 ## Як запустити
 
 1. Встановіть Android Studio та SDK (API 26+).
